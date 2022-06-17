@@ -6,10 +6,6 @@ from time import sleep
 import requests
 import csv
 
-# It was impossible to scrap data(urls) from the main page of "Beverage" using bs4 as the site was dynamic. So I used selenium for it
-
-# Scroll down the page so that selenium can get all the products from the website
-
 
 class BaseParser:
 
